@@ -1,0 +1,16 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "workbench.colorCustomizations": {
+    "editorUnnecessaryCode.border": "#dd7aab"
+  }
+}

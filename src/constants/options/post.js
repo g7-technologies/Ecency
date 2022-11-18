@@ -1,0 +1,16 @@
+export default [
+  'promote',
+  'boost',
+  'copy',
+  'reply',
+  'reblog',
+  'pin-blog',
+  'unpin-blog',
+  'pin-community',
+  'unpin-community',
+  'edit-history',
+  'share',
+  'bookmarks',
+  'mute',
+  'report',
+];
