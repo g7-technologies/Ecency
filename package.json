@@ -11,7 +11,7 @@
   "scripts": {
     "version": "./version-ios.sh",
     "postversion": "react-native-version --never-amend --legacy",
-    "start": "react-native start",
+    "start": "node api.js && react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "releasenotes": "./release-notes.sh > release-notes.txt; node -e 'console.log(JSON.stringify(require(\"fs\").readFileSync(\"release-notes.txt\", \"utf8\")));' > release-notes.json",
